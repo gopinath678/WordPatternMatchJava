@@ -1,6 +1,6 @@
 FROM alpine/git
 WORKDIR /app
-RUN git clone https://github.com/veeraswamy87/java-maven-app.git
+RUN git clone https://github.com/gopinath678/WordPatternMatchJava.git
 
 FROM maven:3.5-jdk-8-alpine
 
