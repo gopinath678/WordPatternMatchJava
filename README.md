@@ -1,4 +1,4 @@
-# java-maven-app
+# No of words matching in a string
 
 How to run 
 ------------------
