@@ -43,18 +43,9 @@ Step 2: build the image
  
  Output : 
  
-Matched Words  aapxj
-
-Matched Words  aapxj
-
-Matched Words  dnrbt
-
-Matched Words  dnrbt
-
-Matched Words  pxjdn
-
-Matched Words  pxjdn
-
-Distinct Matched Words count 4
+Matched Word List for Line # 1 : [pjxdn, apxaj, axpaj, dnrbt]
+Matched Words count for Line 1 : 4
+Matched Word List for Line # 2 : [abd, pjxdn, apxaj, axpaj, dnrbt]
+Matched Words count for Line 2 : 5
 
 
