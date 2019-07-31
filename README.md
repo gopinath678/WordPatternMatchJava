@@ -43,9 +43,8 @@ Step 2: build the image
  
  Output : 
  
-Matched Word List for Line # 1 : [pjxdn, apxaj, axpaj, dnrbt]
-Matched Words count for Line 1 : 4
-Matched Word List for Line # 2 : [abd, pjxdn, apxaj, axpaj, dnrbt]
-Matched Words count for Line 2 : 5
+ Matched Word List for Line # 1 : [pjxdn, apxaj, axpaj, dnrbt]
+ Matched Words count for Line 1 : 4
 
-
+ Matched Word List for Line # 2 : [abd, pjxdn, apxaj, axpaj, dnrbt]
+ Matched Words count for Line 2 : 5
