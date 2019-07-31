@@ -44,7 +44,7 @@ public class App {
 			char last = s1.charAt(s1.length() - 1);
 			
 			for (int i = 0; i < valiDateStr.length(); i++) {
-				
+
 				if (valiDateStr.length() >= i + s1.length()) {
 
 					if (first == valiDateStr.charAt(i) && last == valiDateStr.charAt(i + s1.length() - 1)) {
@@ -58,7 +58,8 @@ public class App {
 					}
 				} 	 	
 			}	
-		  }		System.out.println("Matched Word List for Line # " +(j+1)  +" : " + matchlist); System.out.println("Matched Words count for Line " +(j+1) +" : " + matchlist.size());
+		  }		System.out.println("Matched Word List for Line # " +(j+1)  +" : " + matchlist); 
+				System.out.println("Matched Words count for Line " +(j+1) +" : " + matchlist.size());
 		}
 	}
 
@@ -66,9 +67,7 @@ public class App {
 
 		long sum = 0;
 		for (int j = 0; j < str.length(); j++) {
-
 			sum = sum + (int) str.charAt(j);
-
 		}
 		return sum;
 	}
