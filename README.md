@@ -17,7 +17,7 @@ FROM maven:3.5-jdk-8-alpine
 
 WORKDIR /app
 
-COPY --from=0 /app/java-maven-app /app
+COPY --from=0 /app/java-maven-app-master /app
 
 RUN mvn install
 
