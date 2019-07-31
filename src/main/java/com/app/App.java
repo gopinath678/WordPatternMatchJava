@@ -35,18 +35,16 @@ public class App {
 			e.printStackTrace();
 		}
 
-		// First line only reading from Second input file
-		String valiDateStr = lineStrList.get(0);
-
+	for (int j = 0; j < lineStrList.size(); j++) {
+		String valiDateStr = lineStrList.get(j);
 		Set<String> matchlist = new HashSet<String>();
-
 		for (String s1 : dictionaryList) {
-
+						
 			char first = s1.charAt(0);
 			char last = s1.charAt(s1.length() - 1);
-
+			
 			for (int i = 0; i < valiDateStr.length(); i++) {
-
+				
 				if (valiDateStr.length() >= i + s1.length()) {
 
 					if (first == valiDateStr.charAt(i) && last == valiDateStr.charAt(i + s1.length() - 1)) {
@@ -55,18 +53,13 @@ public class App {
 
 						if (StringToASCII(s1) == StringToASCII(matchStr)) {
 
-							System.out.println("Matched Words  " + matchStr);
-
 							matchlist.add(s1);
-
 						}
 					}
-				}
-			}
-
+				} 	 	
+			}	
+		  }		System.out.println("Matched Word List for Line # " +(j+1)  +" : " + matchlist); System.out.println("Matched Words count for Line " +(j+1) +" : " + matchlist.size());
 		}
-
-		System.out.println("Distinct Matched Words count " + matchlist.size());
 	}
 
 	public static long StringToASCII(final String str) {
@@ -80,3 +73,4 @@ public class App {
 		return sum;
 	}
 }
+
